@@ -1,22 +1,16 @@
 #include <unistd.h>
 
 /**
- * main - Entry point
- * Description : printing with write function
- * Return: Always 1 (Success)
+ * main - and that piece of art
+ *  is useful - Dora Korpar
+ *  Description: prints with write
+ *  Return: 1 always print 1
  */
 
 int main(void)
-
 {
-
-		char str1[] = "and that price of art is useful\" - Dora
-			Korpar, 2015-10-19\n";
-
-
-
-			write(2, str1, 59);
-
-				return (1);
-
+	write(2,
+		"and that piece of art is useful\" - Dora Korpar, 2015-10-19"
+		, 59);
+	return (1);
 }
