@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	char i = '0';
+	signed char i = '0';
 
 	while (i <= '10')
 	{
