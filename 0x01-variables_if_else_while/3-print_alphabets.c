@@ -26,4 +26,5 @@ int main(void)
 		d += 1;
 	}
 	putchar('\n');
+	return (0);
 }
