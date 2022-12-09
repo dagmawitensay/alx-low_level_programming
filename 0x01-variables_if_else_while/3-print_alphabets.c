@@ -9,21 +9,20 @@
 
 int main(void)
 {
-	char c = 'a';
-	char d = 'A';
-	short int i = 0;
-	short int j = 0;
+	char letter = 'a';
 
-	for (i = 0 ; i < 26; i++)
+	while (letter <= 'z')
 	{
-		putchar(c);
-		c += 1;
+		putchar(letter);
+		letter++;
 	}
 
-	for (j = 0 ; j < 26; i++)
+	letter = 'A';
+
+	while (letter <= 'Z')
 	{
-		putchar(d);
-		d += 1;
+		putchar(letter);
+		letter++;
 	}
 	putchar('\n');
 	return (0);
