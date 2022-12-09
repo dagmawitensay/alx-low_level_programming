@@ -11,15 +11,15 @@ int main(void)
 {
 	int i, j, k, l;
 
-	for (i = '0'; i < '9'; i++)
+	for (i = '0'; i <= '9'; i++)
 	{
-		for (j = '0'; j < '9'; j++)
+		for (j = '0'; j <= '9'; j++)
 		{
-			for (k = '0'; k < '9'; k++)
+			for (k = '0'; k <= '9'; k++)
 			{
-				for (l = '0'; l < '9'; l++)
+				for (l = '0'; l <= '9'; l++)
 				{
-					if ((k > i) && (k > j))
+					if ((l >= k) && (l > i))
 					{
 						putchar(i);
 						putchar(j);
