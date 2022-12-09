@@ -9,13 +9,13 @@
 
 int main(void)
 {
-	signed char i = '0';
+	int i = 0;
 
-	while (i <= '10')
+	while (i <= 9)
 	{
-		putchar(i);
+		printf(i);
 		i++;
 	}
-	putchar('\n');
+	printf('\n');
 	return (0);
 }
