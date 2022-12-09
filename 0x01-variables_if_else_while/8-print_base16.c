@@ -8,20 +8,22 @@
 
 int main(void)
 {
-	int num = 0;
+	int num = 48;
 
-	while (num <= 15)
+	while (num <= 57)
 	{
-		if (num < 10)
-		{
-			putchar(num);
-		}
-		else
-		{
-			putchar(num + 51);
-		}
+		putchar(num);
 		num++;
 	}
+
+	num = 97
+
+	while (num <= 102)
+	{
+		putchar(num);
+		num++;
+	}
+
 	putchar('\n');
 	return (0);
 }
