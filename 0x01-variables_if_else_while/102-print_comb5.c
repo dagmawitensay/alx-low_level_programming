@@ -25,7 +25,7 @@ int main(void)
 					putchar(k);
 					putchar(l);
 
-					if (i <= '8')
+					if (j <= '8')
 					{
 						putchar(',');
 						putchar(' ');
