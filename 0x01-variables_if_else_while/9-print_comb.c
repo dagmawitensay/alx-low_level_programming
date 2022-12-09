@@ -15,9 +15,9 @@ int main(void)
 	{
 		putchar(num);
 		putchar(',');
+		putchar(20);
 		num++;
 	}
-	putchar('$');
 	putchar('\n');
 	return (0);
 }
