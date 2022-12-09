@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - funcion that prints
@@ -8,9 +9,9 @@
 
 int main(void)
 {
-	short int i = 0;
+	char i = '0';
 
-	while (i < 10)
+	while (i < '10')
 	{
 		printf(i);
 		i++;
