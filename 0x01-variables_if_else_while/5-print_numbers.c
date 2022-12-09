@@ -13,9 +13,9 @@ int main(void)
 
 	while (i < '10')
 	{
-		printf(i);
+		putchar(i);
 		i++;
 	}
-	printf('\n');
+	putchar('\n');
 	return (0);
 }
