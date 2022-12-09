@@ -16,7 +16,7 @@ int main(void)
 		num++;
 	}
 
-	num = 97
+	num = 97;
 
 	while (num <= 102)
 	{
