@@ -1,11 +1,16 @@
 #include "main.h"
 
 /**
- * main - Entry point
- * Return: 0 sucess
+ * print_alphabet - prints the alphabet in
+ * lowercase
+ * Return: void
  */
 
-int main(void)
+
+
+
+
+void print_alphabet(void)
 {
 	char c = 97;
 
@@ -15,5 +20,4 @@ int main(void)
 		c++;
 	}
 	_putchar('\n');
-	return (0);
 }
