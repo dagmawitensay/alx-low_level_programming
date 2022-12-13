@@ -1,12 +1,20 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - function that prints putchar
+ * main - entry point of the program
  * Return: 0 Sucess
  */
 
 int main(void)
 {
-	prinf("_putchar");
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	-putchar('r');
+	_putchar('\n');
 	return (0);
 }
