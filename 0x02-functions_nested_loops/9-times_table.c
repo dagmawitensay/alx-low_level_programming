@@ -8,16 +8,16 @@
 
 void times_table(void)
 {
-	int i = 0;
+	char i = 48;
 	int res = 0;
 
-	for (i = 0; i < 10; i++)
+	for (i = 0; i < 58; i++)
 	{
-		int j = 0;
+		char j = 48;
 
-		for (j = 0; j < 10; j++)
+		for (j = 48; j < 58; j++)
 		{
-			res = i *j ;
+			res = i * j ;
 			_putchar(res);
 			_putchar(' ');
 			_putchar(',');
