@@ -19,7 +19,7 @@ void times_table(void)
 		{
 			res = i *j ;
 			_putchar(res);
-			_putchar('32');
+			_putchar(' ');
 			_putchar(',');
 		}
 		_putchar('\n');
