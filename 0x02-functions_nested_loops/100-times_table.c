@@ -16,14 +16,14 @@ void print_times_table(int n)
 
 		for (i = 0; i < n; i++)
 		{
+			int j =0;
+
 			if (i == 0)
 			{
 				_putchar(48);
 				_putchar(',');
 				_putchar(' ');
 			}
-			int j = 1;
-
 			for (j = 1; j < n; j++)
 			{
 				prod = j * i;
@@ -33,8 +33,8 @@ void print_times_table(int n)
 					_putchar(prod + 48);
 				} else
 				{
-					_putchar(Pord / 10 + 48);
-					_puchar(prod % 10 + 48);
+					_putchar(Prod / 10 + 48);
+					_putchar(prod % 10 + 48);
 				}
 				_putchar(',');
 				_putchar(' ');
