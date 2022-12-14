@@ -13,13 +13,13 @@ int main(void)
 	b = 2;
 	int j;
 
-	printf("%d, %d, ", a, b);
+	printf("%lu, %lu, ", a, b);
 	for (j = 0; j <= 48; j++)
 	{
 		c = a + b;
 		a = b;
 		b = c;
-		printf("%d, ", c);
+		printf("%lu, ", c);
 	}
 	printf("\n");
 	return (0);
