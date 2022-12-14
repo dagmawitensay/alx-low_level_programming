@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * mian -prints sum of even numbers
+ * main -prints sum of even numbers
  * in fibonacci
  * Return: 0
  */
