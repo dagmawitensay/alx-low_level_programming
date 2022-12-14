@@ -26,7 +26,7 @@ int main(void)
 			res += c;
 		}
 	}
-	printf("%lu", res);
+	printf("%lu\n", res);
 	return (0);
 }
 
