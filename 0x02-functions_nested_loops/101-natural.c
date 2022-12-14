@@ -4,7 +4,7 @@
 /**
  * main - prints the sum of all multiples
  * of 3 and 5 below 1023
- * Return: void no return
+ * Return: 0 sucess
  */
 
 int main(void)
@@ -20,4 +20,5 @@ int main(void)
 		}
 	}
 	printf("%d", total);
+	return (0);
 }
