@@ -9,9 +9,9 @@
 int main(void)
 {
 	unsigned int long a, b, c;
+	int j;
 	a = 1;
 	b = 2;
-	int j;
 
 	printf("%lu, %lu, ", a, b);
 	for (j = 0; j <= 48; j++)
@@ -24,3 +24,4 @@ int main(void)
 	printf("\n");
 	return (0);
 }
+
