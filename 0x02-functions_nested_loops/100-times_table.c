@@ -14,19 +14,19 @@ void print_times_table(int n)
 		int i = 0;
 		int prod;
 
-		for (i = 0; i < n; i++)
+		for (i = 0; i <= n; i++)
 		{
-			int j =0;
+			int j = 0;
 
-			if (i == 0)
-			{
-				_putchar(48);
-				_putchar(',');
-				_putchar(' ');
-			}
-			for (j = 1; j < n; j++)
+			for (j = 1; j <= n; j++)
 			{
 				prod = j * i;
+				if (prod == 0)
+				{
+					_putchar(48);
+					_putchar(',');
+					_putchar(' ');
+				}
 				if  (prod < 10)
 				{
 					_putchar(' ');
