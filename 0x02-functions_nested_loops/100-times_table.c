@@ -21,13 +21,11 @@ void print_times_table(int n)
 			for (j = 0; j <= n; j++)
 			{
 				prod = j * i;
-				if (prod == 0)
+				if (i == 0 || j == 0)
 				{
 					_putchar(48);
-					_putchar(',');
-					_putchar(' ');
 				}
-				if  (prod < 10)
+				else if  (prod < 10)
 				{
 					_putchar(' ');
 					_putchar(prod + 48);
