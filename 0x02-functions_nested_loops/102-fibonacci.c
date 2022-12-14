@@ -13,12 +13,12 @@ int main(void)
 	int c;
 	int j;
 
-	_putchar(a + 48);
-	_putchar(',');
-	_putchar(' ');
-	_putchar(b + 48);
-	_putchar(',');
-	_putchar(' ');
+	printf("%d", a);
+	Printf("%c", 'c')
+	printf("%c", ' ');
+	printf("%d", b);
+	printf("%d", ',');
+	printf("%c", ' ');
 	for (j = 2; j < 50; j++)
 	{
 		c = a + b;
