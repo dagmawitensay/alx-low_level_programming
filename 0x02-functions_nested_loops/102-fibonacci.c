@@ -14,7 +14,7 @@ int main(void)
 	int j;
 
 	printf("%d", a);
-	Printf("%c", 'c')
+	printf("%c", 'c')
 	printf("%c", ' ');
 	printf("%d", b);
 	printf("%d", ',');
