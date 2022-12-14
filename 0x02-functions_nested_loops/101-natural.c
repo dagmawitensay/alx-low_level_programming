@@ -2,12 +2,12 @@
 #include "main.h"
 
 /**
- * multiples_sum - prints the sum of all multiples
+ * main - prints the sum of all multiples
  * of 3 and 5 below 1023
  * Return: void no return
  */
 
-void multiples_sum(void)
+int main(void)
 {
 	int i = 0;
 	int total = 0;
