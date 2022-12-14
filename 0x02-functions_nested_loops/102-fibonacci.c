@@ -13,26 +13,13 @@ int main(void)
 	int c;
 	int j;
 
-	printf("%d", a);
-	printf("%c", ',');
-	printf("%c", ' ');
-	printf("%d", b);
-	printf("%d", ',');
-	printf("%c", ' ');
-	for (j = 2; j < 50; j++)
+	printf("%d, %d, ", a, b);
+	for (j = 0; j <= 48; j++)
 	{
 		c = a + b;
 		a = b;
 		b = c;
-		printf("%d", c);
-		if (j != 49)
-		{
-			_putchar(',');
-			_putchar(' ');
-		}
-
+		printf("%d, ", c);
 	}
-	_putchar('\n');
-	return (0);
+	printf("\n");
 }
-
