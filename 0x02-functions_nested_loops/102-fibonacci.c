@@ -10,6 +10,7 @@ int main(void)
 {
 	unsigned int long a, b, c;
 	int j;
+
 	a = 1;
 	b = 2;
 
