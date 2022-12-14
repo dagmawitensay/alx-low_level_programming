@@ -1,4 +1,4 @@
-#include "mian.h"
+#include "main.h"
 /**
  * print_times_table - prints n by n mulipliction table
  * @n: the given number
