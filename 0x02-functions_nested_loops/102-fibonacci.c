@@ -14,12 +14,16 @@ int main(void)
 	b = 2;
 
 	printf("%lu, %lu, ", a, b);
-	for (j = 0; j <= 48; j++)
+	for (j = 0; j <= 47; j++)
 	{
 		c = a + b;
 		a = b;
 		b = c;
-		printf("%lu, ", c);
+		printf("%lu", c);
+		if (j != 47)
+		{
+			printf(", ");
+		}
 	}
 	printf("\n");
 	return (0);
