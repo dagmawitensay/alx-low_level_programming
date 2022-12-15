@@ -1,4 +1,4 @@
-#include "main.h"
+#include "miain.h"
 
 /**
  * print_square - prints square using # character
@@ -12,15 +12,15 @@ void print_square(int size)
 
 	if (n > 0)
 	{
-	for (i = 0; i < size; i++)
-	{
-	for (j = 0; j < size; j++)
-	{
-	_putchar(35);
-	}
-	_putchar('\n');
-	}
-	_putchar('\n');
+		for (i = 0; i < size; i++)
+		{
+			for (j = 0; j < size; j++)
+			{
+				_putchar(35);
+			}
+			_putchar('\n');
+		}
+		_putchar('\n');
 	}
 	else
 	{
