@@ -3,11 +3,11 @@
 
 /**
  * print_square - prints square using # character
- * @size: square size
+ * @n: square size
  * Return: void
  */
 
-void print_square(int size)
+void print_square(int n)
 {
 	int x;
 	int y;
