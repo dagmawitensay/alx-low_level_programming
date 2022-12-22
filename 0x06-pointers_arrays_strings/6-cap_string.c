@@ -12,7 +12,8 @@ char *cap_string(char *s)
 {
 	int n = strlen(s);
 	int i, j;
-	char symbols[] = {',', ';', '.', '!', '?', '"', '(', ')', '{', '}', ' ', '\n', '\t'};
+	char symbols[] = {
+		',', ';', '.', '!', '?', '"', '(', ')', '{', '}', ' ', '\n', '\t'};
 	int s_len = sizeof(symbols) / sizeof(char);
 
 	for (i = 0; i < n && s[i] != '\0'; i++)
