@@ -1,5 +1,4 @@
 #include "main.h"
-#include "string.h"
 
 /**
  *_strchr - function that returns a pointer to the first
@@ -12,14 +11,15 @@
 char *_strchr(char *s, char c)
 {
 	unsigned int i;
-	unsigned int j = strlen(s);
 
-	for (i = 0 ; i < j; i++)
+	while (*s != '\0')
 	{
-		if (*(s + i) == c)
+		if (*s == c)
 		{
-			return (&s[i]);
+			return (s);
 		}
+		s++;
 	}
+
 	return (0);
 }
