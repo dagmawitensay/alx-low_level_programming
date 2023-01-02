@@ -4,6 +4,7 @@
  * character is s with any of the characters in accept
  * @s: string to be scanned
  * @accept :string cotaining the charactes to match
+ * Return:a pointer to the first matching character
  */
 
 
