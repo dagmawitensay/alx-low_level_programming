@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memeset - a function that fills the first n
+ * _memset - a function that fills the first n
  * bytes of a memory with byte b
  * @s: pointer to the addrss of the array to be filled
  * @b: byte which fills the first n bytes of the memory
@@ -13,7 +13,7 @@ char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
-	for(i =0; i < n; i++)
+	for (i = 0; i < n; i++)
 	{
 		*(s + i) = b;
 	}
