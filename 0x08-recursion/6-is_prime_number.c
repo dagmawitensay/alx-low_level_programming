@@ -11,19 +11,24 @@
 
 int is_prime_number(int n)
 {
-	int m = sqrt(n);
-
-	return (prime_helper(n, m));
+	if ((!(n %2) && n != 2) || n < 2)
+		return (0);
+	return (divisors(3, n));
 }
 
 
-int prime_helper(int p, int q)
+/**
+ * divisors - helper function
+ * @n: possible factor
+ * @m: number to be checked
+ * Return: 0 or 1
+ */
+
+int divisors(int n, int m)
 {
-	if (p == 1 || p < 0)
+	if (m % n == 0)
 		return (0);
-	else if (q < 2)
-		return (1);
-	else if (p % q == 0)
-		return (0);
-	return (prime_helper(p, q - 1));
+	else if (m / 2 > n)
+		return (divisors(n + 2, m));
+	return (1);
 }
