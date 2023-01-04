@@ -3,7 +3,7 @@
 /**
  * _sqrt_recursion - main function
  * @n: number to be evaluated
- * Return : -1 if no natural square root
+ * Return: -1 if no natural square root
  * or value of squre root
  */
 
