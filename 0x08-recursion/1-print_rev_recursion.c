@@ -4,7 +4,7 @@
 
 void _rev_helper(char *s, int i)
 {
-	if (i >= 0)
+	if (i >= 0 && *(s + i) != '\n')
 	{
 		_putchar(*(s + i));
 		_rev_helper(s, i - 1);
