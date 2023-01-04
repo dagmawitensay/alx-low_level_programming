@@ -4,7 +4,7 @@
 
 void _rev_helper(char *s, int i)
 {
-	if (i >= 0 && *(s + i) != '\n')
+	if (i >= 0)
 	{
 		_putchar(*(s + i));
 		_rev_helper(s, i - 1);
@@ -22,7 +22,7 @@ void _rev_helper(char *s, int i)
 
 void _print_rev_recursion(char *s)
 {
-	int n = strlen(s);
+	int n = strlen(s) - 1;
 
 	_rev_helper(s, n);
 }
