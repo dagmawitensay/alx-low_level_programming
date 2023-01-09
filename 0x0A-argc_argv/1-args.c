@@ -9,9 +9,9 @@
  * Return: 0 sucess
  */
 
-int main(int argc, char **argv)
+int main(int argc, char __attribute__ ((unused)) **argv)
 {
-	printf("%d", argc);
+	printf("%d\n", argc);
 
 	return (0);
 }
