@@ -10,5 +10,5 @@
 
 int main(void)
 {
-	prinf("%s\n", __FILE__);
+	printf("%s\n", __FILE__);
 }
