@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * get_bit -  function to get the bit at a given
+ * get_bit - function to get the bit at a given
  * index
  * @n: the decimal number
  * @index: the given index
- * Return the bit at index
+ * Return: the bit at index
  */
 
 int get_bit(unsigned long int n, unsigned int index)
