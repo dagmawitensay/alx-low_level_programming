@@ -7,6 +7,7 @@
  * @h: pointer to the head of the linked list
  * @idx: index of insertion
  * @n: value of the node
+ * Return: address of the new node
  */
 
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
@@ -25,14 +26,15 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 		start = start->next;
 	}
 
-	if (idx >= len)
+	if (idx == len)
 		return (add_dnodeint_end(h, n));
+
 	new = malloc(sizeof(dlistint_t));
-	if (new == NULL)
-		{
-			free(new);
-			return (NULL);
-		}
+	if (new == NULL || idx > len)
+	{
+		free(new);
+		return (NULL);
+	}
 
 	new->n = n;
 
